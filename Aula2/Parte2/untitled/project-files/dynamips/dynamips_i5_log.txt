@@ -1,0 +1,95 @@
+Feb 24 13:56:38.323 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Feb 24 13:56:38.323 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 59589.
+Feb 24 13:56:38.333 HYPERVISOR: exec_cmd: hypervisor version 
+Feb 24 13:56:38.333 HYPERVISOR: exec_cmd: hypervisor working_dir /home/samuel/Universidade/AR/Aula2/Parte2/untitled/project-files/dynamips 
+Feb 24 13:56:38.333 GENERAL: working_dir=/home/samuel/Universidade/AR/Aula2/Parte2/untitled/project-files/dynamips
+Feb 24 13:56:38.333 HYPERVISOR: exec_cmd: hypervisor working_dir /home/samuel/Universidade/AR/Aula2/Parte2/untitled/project-files/dynamips/fea70b7c-c69b-48e3-a144-f2d5dfc24248 
+Feb 24 13:56:38.333 GENERAL: working_dir=/home/samuel/Universidade/AR/Aula2/Parte2/untitled/project-files/dynamips/fea70b7c-c69b-48e3-a144-f2d5dfc24248
+Feb 24 13:56:38.334 HYPERVISOR: exec_cmd: vm create ESW2 2 c3725 
+Feb 24 13:56:38.334 VM: VM ESW2 created.
+Feb 24 13:56:38.334 HYPERVISOR: exec_cmd: vm set_con_tcp_port ESW2 5005 
+Feb 24 13:56:38.334 HYPERVISOR: exec_cmd: c3725 get_mac_addr ESW2 
+Feb 24 13:56:38.335 HYPERVISOR: exec_cmd: vm set_ios ESW2 /home/samuel/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Feb 24 13:56:38.335 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Feb 24 13:56:38.336 HYPERVISOR: exec_cmd: vm set_idle_pc ESW2 0x60a68e70 
+Feb 24 13:56:38.336 HYPERVISOR: exec_cmd: vm set_nvram ESW2 256 
+Feb 24 13:56:38.337 HYPERVISOR: exec_cmd: vm set_disk0 ESW2 1 
+Feb 24 13:56:38.337 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Feb 24 13:56:38.337 HYPERVISOR: exec_cmd: vm slot_add_binding ESW2 1 0 NM-16ESW 
+Feb 24 13:56:38.389 HYPERVISOR: exec_cmd: vm set_ios ESW2 /home/samuel/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Feb 24 13:56:40.972 HYPERVISOR: exec_cmd: vm set_ios ESW2 /home/samuel/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Feb 24 13:56:57.070 HYPERVISOR: exec_cmd: nio create_udp udp-3e2d15af-cca6-49c4-884c-da2b6fc4492c 10010 127.0.0.1 10011 
+Feb 24 13:56:57.284 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW2 1 0 udp-3e2d15af-cca6-49c4-884c-da2b6fc4492c 
+Feb 24 13:56:57.284 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Feb 24 13:57:04.588 HYPERVISOR: exec_cmd: nio create_udp udp-8b0b9970-e2f9-4f33-8a9f-dd2403623398 10016 127.0.0.1 10017 
+Feb 24 13:57:04.590 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW2 1 13 udp-8b0b9970-e2f9-4f33-8a9f-dd2403623398 
+Feb 24 13:57:04.590 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Feb 24 13:57:09.662 HYPERVISOR: exec_cmd: nio create_udp udp-785c8f06-9a57-47fa-8033-f30dcbfd16cf 10022 127.0.0.1 10023 
+Feb 24 13:57:09.663 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW2 1 14 udp-785c8f06-9a57-47fa-8033-f30dcbfd16cf 
+Feb 24 13:57:09.663 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Feb 24 13:57:15.113 HYPERVISOR: exec_cmd: nio create_udp udp-cd1d81fc-d80e-4b8c-bf83-ee101373d58e 10028 127.0.0.1 10029 
+Feb 24 13:57:15.114 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW2 1 15 udp-cd1d81fc-d80e-4b8c-bf83-ee101373d58e 
+Feb 24 13:57:15.114 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Feb 24 13:57:28.509 HYPERVISOR: exec_cmd: vm set_ghost_status ESW2 2 
+Feb 24 13:57:28.510 HYPERVISOR: exec_cmd: vm set_ghost_file ESW2 /home/samuel/Universidade/AR/Aula2/Parte2/untitled/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Feb 24 13:57:28.510 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Feb 24 13:57:28.511 HYPERVISOR: exec_cmd: vm set_config ESW2 configs/i2_startup-config.cfg 
+Feb 24 13:57:28.511 HYPERVISOR: exec_cmd: vm start ESW2 
+Feb 24 14:01:58.760 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Feb 24 14:01:58.866 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Feb 24 14:02:28.764 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Feb 24 14:02:28.768 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Feb 24 14:14:58.859 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Feb 24 14:14:58.966 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Feb 24 14:16:19.970 HYPERVISOR: exec_cmd: nio create_udp udp-29b57d5c-ec51-4d8e-9a6d-7f3cb1e5d1ef 10034 127.0.0.1 10035 
+Feb 24 14:16:19.971 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW2 1 12 udp-29b57d5c-ec51-4d8e-9a6d-7f3cb1e5d1ef 
+Feb 24 14:16:19.972 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Feb 24 14:16:19.972 HYPERVISOR: exec_cmd: vm slot_enable_nio ESW2 1 12 
+Feb 24 14:16:26.153 HYPERVISOR: exec_cmd: nio create_udp udp-59597f48-c2d1-40ba-aa27-27d366cd40ab 10040 127.0.0.1 10041 
+Feb 24 14:16:26.154 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW2 1 11 udp-59597f48-c2d1-40ba-aa27-27d366cd40ab 
+Feb 24 14:16:26.154 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Feb 24 14:16:26.155 HYPERVISOR: exec_cmd: vm slot_enable_nio ESW2 1 11 
+Feb 24 14:23:28.921 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Feb 24 14:23:28.942 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Feb 24 14:25:58.939 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Feb 24 14:25:59.047 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Feb 24 14:29:21.378 HYPERVISOR: exec_cmd: nio create_udp udp-653203f6-15f3-4a09-864a-ee7ca3f0a56f 10052 127.0.0.1 10053 
+Feb 24 14:29:21.379 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW2 1 2 udp-653203f6-15f3-4a09-864a-ee7ca3f0a56f 
+Feb 24 14:29:21.379 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Feb 24 14:29:21.380 HYPERVISOR: exec_cmd: vm slot_enable_nio ESW2 1 2 
+Feb 24 14:29:25.122 HYPERVISOR: exec_cmd: nio create_udp udp-d54c6d67-424a-41c3-83d1-a274769aa9f0 10056 127.0.0.1 10057 
+Feb 24 14:29:25.123 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW2 1 1 udp-d54c6d67-424a-41c3-83d1-a274769aa9f0 
+Feb 24 14:29:25.123 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Feb 24 14:29:25.123 HYPERVISOR: exec_cmd: vm slot_enable_nio ESW2 1 1 
+Feb 24 14:29:26.561 HYPERVISOR: exec_cmd: vm set_ghost_status ESW2 2 
+Feb 24 14:29:26.571 HYPERVISOR: exec_cmd: vm set_ghost_file ESW2 /home/samuel/Universidade/AR/Aula2/Parte2/untitled/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Feb 24 14:29:26.571 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Feb 24 14:42:47.898 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Feb 24 14:42:47.899 HYPERVISOR: exec_cmd: vm stop ESW2 
+Feb 24 14:42:48.163 VM: VM ESW2 shutdown.
+Feb 24 14:42:48.173 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Feb 24 14:42:51.465 HYPERVISOR: exec_cmd: vm set_ghost_status ESW2 2 
+Feb 24 14:42:51.466 HYPERVISOR: exec_cmd: vm set_ghost_file ESW2 /home/samuel/Universidade/AR/Aula2/Parte2/untitled/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Feb 24 14:42:51.467 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Feb 24 14:42:51.475 HYPERVISOR: exec_cmd: vm set_config ESW2 configs/i2_startup-config.cfg 
+Feb 24 14:42:51.477 HYPERVISOR: exec_cmd: vm start ESW2 
+Feb 24 14:48:51.718 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Feb 24 14:48:51.821 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Feb 24 14:50:51.198 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Feb 24 14:50:51.199 HYPERVISOR: exec_cmd: vm stop ESW2 
+Feb 24 14:50:51.432 VM: VM ESW2 shutdown.
+Feb 24 14:50:51.433 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Feb 24 14:50:54.737 HYPERVISOR: exec_cmd: vm set_ghost_status ESW2 2 
+Feb 24 14:50:54.738 HYPERVISOR: exec_cmd: vm set_ghost_file ESW2 /home/samuel/Universidade/AR/Aula2/Parte2/untitled/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Feb 24 14:50:54.739 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Feb 24 14:50:54.740 HYPERVISOR: exec_cmd: vm set_config ESW2 configs/i2_startup-config.cfg 
+Feb 24 14:50:54.741 HYPERVISOR: exec_cmd: vm start ESW2 
+Feb 24 14:54:03.565 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Feb 24 14:54:03.565 HYPERVISOR: exec_cmd: vm stop ESW2 
+Feb 24 14:54:03.783 VM: VM ESW2 shutdown.
+Feb 24 14:54:03.784 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Feb 24 14:54:03.825 HYPERVISOR: exec_cmd: vm delete ESW2 
+Feb 24 14:54:03.825 VM: VM ESW2 destroyed.
+Feb 24 14:54:03.825 HYPERVISOR: exec_cmd: hypervisor stop 
+Feb 24 14:54:04.219 HYPERVISOR: Stopped.
+Feb 24 14:54:04.219 GENERAL: reset done.
